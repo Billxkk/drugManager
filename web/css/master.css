@@ -1,0 +1,60 @@
+.navbox {
+	position: relative;
+	float: left;
+}
+
+ul.nav {
+	list-style: none;
+	display: block;
+	width: 150px;
+	position: relative;
+	margin-top: -10px;
+	left: 10px;
+	padding: 0px 0 40px 0;
+	background: url(../images/shad2.png) no-repeat;
+	-webkit-background-size: 50% 100%;
+}
+
+li {
+	margin: 5px 0 0 0;
+}
+
+ul.nav li a {
+	transition: all 0.3s ease-out;
+	background: #f8f8f8 url(../images/border.png) no-repeat;
+	color: #174867;
+	padding: 7px 15px 7px 15px;
+	-webkit-border-top-right-radius: 10px;
+ 	-webkit-border-bottom-right-radius: 10px;
+	width: 100px;
+	display: block;
+	text-decoration: none;
+	-webkit-box-shadow: 2px 2px 4px #888;
+}
+
+ul.nav li a:hover {
+	background: #a89b9b url(../images/border.png) no-repeat;
+	color: #f8f8f8;
+	padding: 7px 10px 7px 30px;
+	width: 120px;
+}
+
+.mainArea {
+	float: right;
+	
+	margin-right: 18px;
+	width: 85%;
+}
+
+.myjumbotron {
+	padding-left: 50px;
+}
+.mycontainer {
+	padding-top: 20%;
+}
+.loginTitle {
+	text-align: center;
+	font-weight: bold;
+	font-size: 22px;
+}
+
